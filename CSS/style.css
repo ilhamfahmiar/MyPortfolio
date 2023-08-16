@@ -1030,7 +1030,7 @@ span {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
     #menu-icon {
         display: block;
         cursor: pointer;
@@ -1101,11 +1101,6 @@ span {
         color: var(--text-content);
     }
 
-    .navbar a:nth-child(1),
-    .navbar a:nth-child(2) {
-        color: var(--text-content);
-    }
-
     .navbar a.active {
         color: var(--main-color);
     }
@@ -1162,55 +1157,6 @@ span {
         animation: professionRotateLite 13s ease-out infinite;
     }
 
-    .home .profession-box .profession {
-        padding: 0 13px;
-        left: auto;
-        transform-origin: 0;
-    }
-
-    .home .profession-box .profession:nth-child(1) {
-        transform: rotate(0deg) translate(0, -265px);
-    }
-
-    .home .profession-box .profession:nth-child(2) {
-        transform: rotate(65deg) translate(-50px, -350px);
-    }
-
-    .home .profession-box .profession:nth-child(3) {
-        transform: rotate(125deg) translate(-120px, -330px);
-        padding-right: 25px;
-    }
-
-    .home .profession-box .profession:nth-child(3) i {
-        padding-right: 30px;
-    }
-
-    .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-180px, -255px);
-    }
-
-    .home .profession-box .profession:nth-child(5) {
-        transform: rotate(-125deg) translate(-120px, -200px);
-        padding-right: 25px;
-    }
-
-    .home .profession-box .profession:nth-child(5) i {
-        padding-right: 10px;
-    }
-
-    .home .profession-box .profession:nth-child(6) {
-        transform: rotate(-65deg) translate(-63px, -180px);
-    }
-
-    .home .profession-box .profession:nth-child(6) i {
-        padding-left: 15px;
-    }
-
-    .home .profession-box .circle {
-        position: fixed;
-        z-index: -1;
-    }
-
     .home .profession-container .overlay {
         position: fixed;
         top: 65rem;
@@ -1221,30 +1167,6 @@ span {
         border-left: 350px solid transparent;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
-    }
-
-    @keyframes professionRotateLite {
-        0%,10% {
-            transform: rotate(0deg);
-        }
-        15%,25% {
-            transform: rotate(-65deg);
-        }
-        30%,40% {
-            transform: rotate(-125deg);
-        }
-        45%,55% {
-            transform: rotate(-180deg);
-        }
-        60%,75% {
-            transform: rotate(-236deg);
-        }
-        80%,90% {
-            transform: rotate(-293deg);
-        }
-        100% {
-            transform: rotate(-360deg);
-        }
     }
 
     .home-img img {
@@ -1289,5 +1211,187 @@ span {
 
     .footer .footer-iconTop {
         margin-right: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+        color: var(--overlay-color);
+    }
+
+    .dark-mode .header.sticky #menu-icon {
+        color: var(--white-color);
+    }
+
+    .dark-mode .header.sticky #menu-icon:hover {
+        color: var(--hover-menu-color);
+    }
+
+    #menu-icon:hover {
+        color: var(--hover-menu-color);
+    }
+
+    #darkMode-icon {
+        position: absolute;
+        right: 7rem;
+        font-size: 2.6rem;
+        color: var(--overlay-color);
+        margin-bottom: .1rem;
+    }
+
+    #darkMode-icon:hover {
+        color: var(--hover-menu-color);
+    }
+
+    .header.sticky #darkMode-icon:hover {
+        color: var(--hover-menu-color);
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--white-color);
+        border-top: 1rem solid rgb(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        display: none;
+    }
+
+    .dark-mode .header.sticky .navbar {
+        background: var(--text-content);
+    }
+
+    .dark-mode .header.sticky .navbar a {
+        color: var(--white-color);
+    }
+
+    .dark-mode .header.sticky .navbar a.active {
+        color: var(--hover-menu-color);
+    }
+
+    .navbar.active {
+        display: block;
+        border: none;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: var(--text-content);
+    }
+
+    .navbar a.active {
+        color: var(--main-color);
+    }
+
+    .navbar a::before {
+        display: none;
+    }
+
+    .home {
+        padding: 0 3% 12rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .home-content {
+        max-width: 50rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+    
+    .home-content h1 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+
+    .home-content .social-media a {
+        margin: 2.5rem .75rem 3rem;
+    }
+
+    .hello-ico {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar a.acttive::before {
+        background: var(--main-color);
+        opacity: .7;
+    }
+
+    .home .profession-container {
+        left: 0;
+        top: 50%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home .profession-box .circle {
+        position: fixed;
+        z-index: -1;
+    }
+
+    .home .profession-container .overlay {
+        position: fixed;
+        top: 50rem;
+        left: 50%;
+        border-top: 350px solid var(--main-color);
+        border-right: 350px solid var(--main-color);
+        border-bottom: 350px solid var(--main-color);
+        border-left: 350px solid transparent;
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
+        border-width: 23.9rem;
+    }
+
+    .home-img img {
+        display: none;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-content h2 {
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 70%;
+        margin-top: -6rem;
+    }
+
+    .skills-container .skills-box {
+        flex: 1 1 20rem;
+        height: 50vh;
+    }
+
+    .portfolio-container .portfolio-box {
+        flex: 1 1 20rem;
+        height: 55vh;
+    }
+
+    .portfolio-box h4 {
+        font-size: 2rem;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+
+    .footer .footer-text p {
+        font-size: 11px;
+        justify-content: center;
+    }
+
+    .footer .footer-iconTop {
+        display: none;
     }
 }
