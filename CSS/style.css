@@ -1031,8 +1031,8 @@ span {
 }
 
 @media (max-width: 390px) {
-    .header {
-        padding: 2rem 7%;
+    .logo {
+        margin-right: auto;
     }
 
     #menu-icon {
@@ -1055,7 +1055,7 @@ span {
 
     #darkMode-icon {
         position: absolute;
-        right: 7rem;
+        right: 6rem;
         font-size: 2.6rem;
         color: var(--overlay-color);
         margin-bottom: .1rem;
@@ -1219,10 +1219,6 @@ span {
 }
 
 @media (max-width: 320px) {
-    .header {
-        padding: 2rem 7%;
-    }
-
     #menu-icon {
         display: block;
         cursor: pointer;
