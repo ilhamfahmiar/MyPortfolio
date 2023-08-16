@@ -1032,7 +1032,7 @@ span {
 
 @media (max-width: 390px) {
     .header {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     #menu-icon {
