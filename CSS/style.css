@@ -1031,6 +1031,10 @@ span {
 }
 
 @media (max-width: 390px) {
+    .header {
+        padding: 2rem 5%;
+    }
+
     #menu-icon {
         display: block;
         cursor: pointer;
