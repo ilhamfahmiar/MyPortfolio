@@ -111,6 +111,7 @@ span {
     color: var(--main-color);
     font-weight: 600;
     cursor: default;
+    width: 100%;
     margin-right: auto;
 }
 
@@ -1031,10 +1032,6 @@ span {
 }
 
 @media (max-width: 390px) {
-    .logo {
-        margin-right: 100px;
-    }
-
     #menu-icon {
         display: block;
         cursor: pointer;
