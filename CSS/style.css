@@ -1031,11 +1031,6 @@ span {
 }
 
 @media (max-width: 490px) {
-    .header {
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
     .home .profession-container .overlay {
         top: 70rem;
         border-top: 350px solid var(--main-color);
@@ -1046,97 +1041,14 @@ span {
 }
 
 @media (max-width: 390px) {
-    .header {
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    #menu-icon {
-        display: block;
-        cursor: pointer;
-        color: var(--overlay-color);
-    }
-
-    .dark-mode .header.sticky #menu-icon {
-        color: var(--white-color);
-    }
-
-    .dark-mode .header.sticky #menu-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    #menu-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    #darkMode-icon {
-        position: absolute;
-        right: 6rem;
-        font-size: 2.6rem;
-        color: var(--overlay-color);
-        margin-bottom: .1rem;
-    }
-
-    #darkMode-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    .header.sticky #darkMode-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--white-color);
-        border-top: 1rem solid rgb(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-        display: none;
-    }
-
-    .dark-mode .header.sticky .navbar {
-        background: var(--text-content);
-    }
-
-    .dark-mode .header.sticky .navbar a {
-        color: var(--white-color);
-    }
-
-    .dark-mode .header.sticky .navbar a.active {
-        color: var(--hover-menu-color);
-    }
-
-    .navbar.active {
-        display: block;
-        border: none;
-    }
-
-    .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-        color: var(--text-content);
-    }
-
-    .navbar a.active {
-        color: var(--main-color);
-    }
-
-    .navbar a::before {
-        display: none;
-    }
-
     .home {
-        padding: 0 3% 23rem;
+        padding: 0 5% 23rem;
         justify-content: center;
         text-align: center;
     }
 
     .home .home-content {
-        max-width: 50rem;
+        max-width: 30rem;
     }
 
     .home-content h3 {
@@ -1156,14 +1068,9 @@ span {
         height: 30px;
     }
 
-    .navbar a.acttive::before {
-        background: var(--main-color);
-        opacity: .7;
-    }
-
     .home .profession-container {
         left: 0;
-        top: 50%;
+        top: 60%;
         width: 100%;
         height: 100%;
     }
@@ -1183,28 +1090,10 @@ span {
         left: 50%;
         border-top: 350px solid var(--main-color);
         border-right: 350px solid var(--main-color);
-        border-bottom: 350px solid var(--main-color);
+        border-bottom: 300px solid var(--main-color);
         border-left: 350px solid transparent;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
-        border-width: 23.9rem;
-    }
-
-    .home-img img {
-        display: none;
-    }
-
-    .about {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .about-content h2 {
-        text-align: center;
-    }
-
-    .about-img img {
-        width: 70%;
-        margin-top: -6rem;
+        border-width: 20rem;
     }
 
     .skills-container .skills-box {
@@ -1217,106 +1106,12 @@ span {
         height: 40vh;
     }
 
-    .portfolio-box h4 {
-        font-size: 2rem;
-    }
-
-    .contact form .input-box input {
-        width: 100%;
-    }
-
-    .footer .footer-text p {
-        font-size: 11px;
-    }
-
     .footer .footer-iconTop {
         margin-right: 10px;
     }
 }
 
 @media (max-width: 320px) {
-    .header {
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    #menu-icon {
-        display: block;
-        cursor: pointer;
-        color: var(--overlay-color);
-    }
-
-    .dark-mode .header.sticky #menu-icon {
-        color: var(--white-color);
-    }
-
-    .dark-mode .header.sticky #menu-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    #menu-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    #darkMode-icon {
-        position: absolute;
-        right: 7rem;
-        font-size: 2.6rem;
-        color: var(--overlay-color);
-        margin-bottom: .1rem;
-    }
-
-    #darkMode-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    .header.sticky #darkMode-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--white-color);
-        border-top: 1rem solid rgb(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-        display: none;
-    }
-
-    .dark-mode .header.sticky .navbar {
-        background: var(--text-content);
-    }
-
-    .dark-mode .header.sticky .navbar a {
-        color: var(--white-color);
-    }
-
-    .dark-mode .header.sticky .navbar a.active {
-        color: var(--hover-menu-color);
-    }
-
-    .navbar.active {
-        display: block;
-        border: none;
-    }
-
-    .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-        color: var(--text-content);
-    }
-
-    .navbar a.active {
-        color: var(--main-color);
-    }
-
-    .navbar a::before {
-        display: none;
-    }
-
     .home {
         padding: 0 3% 12rem;
         justify-content: center;
