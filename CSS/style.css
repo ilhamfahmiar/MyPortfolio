@@ -1030,7 +1030,27 @@ span {
     }
 }
 
+@media (max-width: 490px) {
+    .header {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .home .profession-container .overlay {
+        top: 70rem;
+        border-top: 350px solid var(--main-color);
+        border-right: 350px solid var(--main-color);
+        border-bottom: 350px solid var(--main-color);
+        border-left: 340px solid transparent;
+    }
+}
+
 @media (max-width: 390px) {
+    .header {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
     #menu-icon {
         display: block;
         cursor: pointer;
@@ -1215,6 +1235,10 @@ span {
 }
 
 @media (max-width: 320px) {
+    .header {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
     #menu-icon {
         display: block;
         cursor: pointer;
