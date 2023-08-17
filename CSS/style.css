@@ -1038,6 +1038,28 @@ span {
         border-bottom: 350px solid var(--main-color);
         border-left: 340px solid transparent;
     }
+
+    .skills-container .skills-box {
+        height: 37vh;
+    }
+
+    .portfolio-container .portfolio-box {
+        flex: 1 1 22rem;
+        height: 40vh;
+    }
+
+    .portfolio-box h4 {
+        font-size: 14px;
+    }
+
+    .footer .footer-text p {
+        margin-left: 4px;
+        font-size: 12px;
+    }
+
+    .footer .footer-iconTop {
+        margin-right: 12px;
+    }
 }
 
 @media (max-width: 390px) {
