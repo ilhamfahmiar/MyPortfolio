@@ -1048,7 +1048,7 @@ span {
     }
 
     .home .home-content {
-        max-width: 30rem;
+        max-width: 25rem;
     }
 
     .home-content h3 {
@@ -1106,8 +1106,13 @@ span {
         height: 40vh;
     }
 
+    .footer .footer-text p {
+        margin-left: 4px;
+        font-size: x-small;
+    }
+
     .footer .footer-iconTop {
-        margin-right: 10px;
+        margin-right: 12px;
     }
 }
 
