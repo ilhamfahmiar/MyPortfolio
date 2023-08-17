@@ -1031,12 +1031,29 @@ span {
 }
 
 @media (max-width: 490px) {
+    .home .home-content {
+        max-width: 25rem;
+        margin-top: -150px;
+    }
+
+    .home .profession-container .profession-box {
+        top: 43%;
+    }
+
     .home .profession-container .overlay {
-        top: 70rem;
+        top: 67rem;
         border-top: 350px solid var(--main-color);
         border-right: 350px solid var(--main-color);
         border-bottom: 350px solid var(--main-color);
         border-left: 340px solid transparent;
+    }
+
+    .home .profession-box .profession:nth-child(3) i {
+        margin-left: 20px;
+    }
+
+    .home .profession-box .profession:nth-child(6) i {
+        margin-left: 19px;
     }
 
     .skills-container .skills-box {
@@ -1071,6 +1088,7 @@ span {
 
     .home .home-content {
         max-width: 25rem;
+        margin-top: 0;
     }
 
     .home-content h3 {

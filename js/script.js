@@ -45,10 +45,10 @@ darkModeIcon.onclick = () => {
     darkModeIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
     if(change == 0){
-        document.getElementById("imgid").src="Images/img-me-dark.png";
+        document.getElementById("imgid").src="img/img-me-dark.png";
         change = 1;
     }else{
-        document.getElementById("imgid").src="Images/img-me.png";
+        document.getElementById("imgid").src="img/img-me.png";
         change = 0;
     }
 };
