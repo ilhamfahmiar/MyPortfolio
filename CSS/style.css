@@ -19,6 +19,7 @@
     --text-content:#333;
     --overlay-color: #64A9f9;
     --main-color: #64A9F9;
+    --black-color: #333;
     --white-color: #fdfdfd;
     --sec-text-color: #64A9F9;
     --hover-menu-color: #333;
@@ -65,7 +66,16 @@ span {
     cursor: pointer;
 }
 
+#darkMode-icon:hover {
+    font-weight: 800;
+}
+
 .header.sticky #darkMode-icon {
+    color: var(--black-color);
+    opacity: .9;
+}
+
+.header.sticky #darkMode-icon:hover {
     color: var(--overlay-color);
     opacity: .9;
 }
@@ -126,6 +136,19 @@ span {
     color: var(--text-color);
 }
 
+.header.sticky .navbar a:hover {
+    color: var(--overlay-color);
+}
+
+.dark-mode .header.sticky .navbar a {
+    color: var(--text-color);
+}
+
+.dark-mode .header.sticky .navbar a:hover {
+    color: var(--hover-menu-color);
+    font-weight: 0;
+}
+
 .header.sticky .navbar a.active {
     color: var(--sec-text-color);
 }
@@ -141,7 +164,7 @@ span {
 }
 
 .header.sticky .navbar a::before {
-    background: var(--main-color);
+    background: var(--sec-text-color);
     opacity: .7;
 }
 
@@ -404,7 +427,7 @@ span {
     background: var(--bg-color);
     padding: 3rem 2rem 3rem;
     width: 40vh;
-    height: 60vh;
+    height: 66vh;
     border-radius: 2rem;
     box-sizing: border-box;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
@@ -1017,7 +1040,7 @@ span {
 
     .skills-container .skills-box {
         flex: 1 1 20rem;
-        height: 49vh;
+        height: 50vh;
     }
 
     .portfolio-container .portfolio-box {

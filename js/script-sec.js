@@ -1,7 +1,7 @@
 /* menu icon navbar */
 
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+let menuIcon = document.querySelector('#menu-sec-icon');
+let navbar = document.querySelector('.navbar-sec');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
@@ -46,7 +46,7 @@ window.onscroll = () => {
 
 /* change dark mode */
 let change = 0;
-let darkModeIcon = document.querySelector('#darkMode-icon');
+let darkModeIcon = document.querySelector('#darkMode-sec-icon');
 darkModeIcon.onclick = () => {
     darkModeIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
@@ -66,7 +66,7 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img img, .skills-container, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, about-img img', { origin: 'left' });
-ScrollReveal().reveal('.home-content h3, home-content p, about-content', { origin: 'right' });
+ScrollReveal().reveal('.title-page, .text', { origin: 'top' });
+// ScrollReveal().reveal('.text', { origin: 'bottom' });
+// ScrollReveal().reveal('.home-content h1, about-img img', { origin: 'left' });
+// ScrollReveal().reveal('.home-content h3, home-content p, about-content', { origin: 'right' });
