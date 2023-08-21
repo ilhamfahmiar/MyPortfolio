@@ -54,7 +54,7 @@ darkModeIcon.onclick = () => {
         document.getElementById("imgid").src="img/img-me-dark.png";
         change = 1;
     }else{
-        document.getElementById("imgid").src="img/img-me.png";
+        document.getElementById("imgid").src="img/img-me-light.png";
         change = 0;
     }
 };

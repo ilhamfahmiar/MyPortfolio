@@ -51,10 +51,12 @@ darkModeIcon.onclick = () => {
     darkModeIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
     if(change == 0){
-        document.getElementById("imgid").src="img/img-me-dark.png";
+        document.getElementById("img-webdimension").src="img/dimensionweb-dark.png";
+        document.getElementById("img-webkasir").src="img/kasirweb-dark.png";
         change = 1;
     }else{
-        document.getElementById("imgid").src="img/img-me.png";
+        document.getElementById("img-webdimension").src="img/dimensionweb-light.png";
+        document.getElementById("img-webkasir").src="img/kasirweb-light.png";
         change = 0;
     }
 };
