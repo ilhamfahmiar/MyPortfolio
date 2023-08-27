@@ -293,6 +293,42 @@ html {
 
 /* ----------------------------------- End UI Sidebar -------------------------------------------------------- */
 
+/* ----------------------------------- IoT Sidebar ----------------------------------------------------------- */
+
+.nav-item #one-iot {
+    width: 340px;
+}
+
+.nav-item #two-iot {
+    width: 240px;
+}
+
+.nav-item #three-iot {
+    width: 300px;
+}
+
+.nav-item #four-iot {
+    width: 300px;
+}
+
+.nav-item #five-iot {
+    width: 300px;
+}
+
+/* ----------------------------------- End IoT Sidebar -------------------------------------------------------- */
+
+/* ----------------------------------- ML Sidebar ----------------------------------------------------------- */
+
+.nav-item #one-ml {
+    width: 460px;
+}
+
+.nav-item #two-ml {
+    width: 430px;
+}
+
+/* ----------------------------------- End ML Sidebar -------------------------------------------------------- */
+
 /* ----------------------------------- Web Section -------------------------------------------------------------*/
 
 .headerweb {
@@ -535,7 +571,7 @@ html {
 }
 
 .app .heading-oneapp .oneapp-text {
-    padding: 4rem 0 0;
+    padding: 0 1rem 0 2rem;
 }
 
 .app .heading-oneapp .oneapp-text h3 {
@@ -598,7 +634,7 @@ html {
 }
 
 .app .heading-twoapp .twoapp-text {
-    padding: 4rem 0 0;
+    padding: 1rem 2rem 0 0;
 }
 
 .app .heading-twoapp .twoapp-text h3 {
@@ -662,7 +698,7 @@ html {
 }
 
 .app .heading-threeapp .threeapp-text {
-    padding: 4rem 0 0;
+    padding: 0 1rem 0 2rem;
 }
 
 .app .heading-threeapp .threeapp-text h3 {
@@ -726,7 +762,7 @@ html {
 }
 
 .app .heading-fourapp .fourapp-text {
-    padding: 4rem 0 0;
+    padding: 1rem 2rem 0 0;
 }
 
 .app .heading-fourapp .fourapp-text h3 {
@@ -842,7 +878,7 @@ html {
 }
 
 .ui .heading-oneui .oneui-text {
-    padding: 4rem 0 0;
+    padding: 0 0 0 2rem;
 }
 
 .ui .heading-oneui .oneui-text h3 {
@@ -905,7 +941,7 @@ html {
 }
 
 .ui .heading-twoui .twoui-text {
-    padding: 4rem 0 0;
+    padding: 0 2rem 0 0;
 }
 
 .ui .heading-twoui .twoui-text h3 {
@@ -969,7 +1005,7 @@ html {
 }
 
 .ui .heading-threeui .threeui-text {
-    padding: 4rem 0 0;
+    padding: 0 0 0 2rem;
 }
 
 .ui .heading-threeui .threeui-text h3 {
@@ -1032,7 +1068,7 @@ html {
 }
 
 .ui .heading-fourui .fourui-text {
-    padding: 4rem 0 0;
+    padding: 0 2rem 0 0;
 }
 
 .ui .heading-fourui .fourui-text h3 {
@@ -1096,7 +1132,7 @@ html {
 }
 
 .ui .heading-fiveui .fiveui-text {
-    padding: 4rem 0 0;
+    padding: 0 0 0 1.2rem;
 }
 
 .ui .heading-fiveui .fiveui-text h3 {
@@ -1159,7 +1195,7 @@ html {
 }
 
 .ui .heading-sixui .sixui-text {
-    padding: 4rem 0 0;
+    padding: 0 0 0 0;
 }
 
 .ui .heading-sixui .sixui-text h3 {
@@ -1223,7 +1259,7 @@ html {
 }
 
 .ui .heading-sevenui .sevenui-text {
-    padding: 4rem 0 0;
+    padding: 0 0 2rem 0;
 }
 
 .ui .heading-sevenui .sevenui-text h3 {
@@ -1270,4 +1306,570 @@ html {
     font-size: 1.5rem;
 }
 
-/* ----------------------------------- End App Section ----------------------------------------------------------*/
+/* ----------------------------------- End UI/UX Section ----------------------------------------------------------*/
+
+/* ----------------------------------- IoT Section ----------------------------------------------------------------*/
+
+.headeriot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--icon-color);
+}
+
+.headeriot .headeriot-container {
+    max-width: 100rem;
+}
+
+.headeriot .headeriot-container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headeriot .headeriot-container .title h1 {
+    font-size: 5rem;
+    color: var(--bg-color);
+}
+
+.headeriot .headeriot-container .title h1 .text {
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.headeriot .headeriot-container .overlay-content {
+    position: absolute;
+    width: 0;
+    left: 6px;
+    margin: auto;
+    top: 81%;
+    height: 0;
+    border-right: 670px solid transparent;
+    border-top: 30px solid transparent;
+    border-left: 670px solid transparent;
+    border-bottom: 100px solid var(--bg-color);
+}
+
+.iot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* First IoT */
+
+.iot .heading-oneiot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.iot .heading-oneiot img {
+    width: 12vw;
+    bottom: 0;
+}
+
+.iot .heading-oneiot .oneiot-text {
+    padding: 0 0 2rem 0;
+}
+
+.iot .heading-oneiot .oneiot-text h3 {
+    font-size: 2.2rem;
+}
+
+.iot .heading-oneiot .oneiot-text p {
+    font-size: 1.8rem;
+}
+
+.oneiot-content {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+.oneiot-content .img-oneiot {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    margin: 0 30px 30px 30px;
+}
+
+.oneiot-content img {
+    height: 250px;
+    width: 250px;
+    border-radius: 1rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.dark-mode .oneiot-content img {
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.oneiot-content h4 {
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.oneiot-content p {
+    font-size: 1.5rem;
+}
+
+/* Second IoT */
+
+.iot .heading-twoiot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.iot .heading-twoiot img {
+    width: 12vw;
+    bottom: 0;
+}
+
+.iot .heading-twoiot .twoiot-text {
+    padding: 1rem 0 0;
+}
+
+.iot .heading-twoiot .twoiot-text h3 {
+    font-size: 2.2rem;
+}
+
+.iot .heading-twoiot .twoiot-text p {
+    font-size: 1.8rem;
+    text-align: end;
+}
+
+.twoiot-content {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+.twoiot-content .img-twoiot {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    margin: 0 0 30px 0;
+}
+
+.twoiot-content img {
+    height: 250px;
+    width: 250px;
+    border-radius: 1.2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.dark-mode .twoiot-content img {
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.twoiot-content h4 {
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.twoiot-content p {
+    font-size: 1.5rem;
+}
+
+/* Third IoT */
+
+.iot .heading-threeiot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.iot .heading-threeiot img {
+    width: 12vw;
+    bottom: 0;
+}
+
+.iot .heading-threeiot .threeiot-text {
+    padding: 0 0 0;
+}
+
+.iot .heading-threeiot .threeiot-text h3 {
+    font-size: 2.2rem;
+}
+
+.iot .heading-threeiot .threeiot-text p {
+    font-size: 1.8rem;
+}
+
+.threeiot-content {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+.threeiot-content .img-threeiot {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    margin: 0 90px 30px 50px;
+}
+
+.threeiot-content img {
+    height: 350px;
+    width: 350px;
+    border-radius: 1.2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.threeiot-content img.data3 {
+    width:300px;
+    height: 500px;
+}
+
+.dark-mode .threeiot-content img {
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.threeiot-content h4 {
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.threeiot-content p {
+    font-size: 1.5rem;
+}
+
+/* Fourth IoT */
+
+.iot .heading-fouriot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.iot .heading-fouriot img {
+    width: 12vw;
+    bottom: 0;
+}
+
+.iot .heading-fouriot .fouriot-text {
+    padding: 2rem 1rem 0 0;
+}
+
+.iot .heading-fouriot .fouriot-text h3 {
+    font-size: 2.2rem;
+}
+
+.iot .heading-fouriot .fouriot-text p {
+    font-size: 1.8rem;
+    text-align: end;
+}
+
+.fouriot-content {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+.fouriot-content .img-fouriot {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    margin: 0 90px 30px 50px;
+}
+
+.fouriot-content img {
+    height: 350px;
+    width: 350px;
+    border-radius: 1.2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.fouriot-content img.data3 {
+    width:300px;
+    height: 500px;
+}
+
+.dark-mode .fouriot-content img {
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.fouriot-content h4 {
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.fouriot-content p {
+    font-size: 1.5rem;
+}
+
+/* Fiveth IoT */
+
+.iot .heading-fiveiot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.iot .heading-fiveiot img {
+    width: 12vw;
+    bottom: 0;
+}
+
+.iot .heading-fiveiot .fiveiot-text {
+    padding: 0 0 0.5rem 1rem;
+}
+
+.iot .heading-fiveiot .fiveiot-text h3 {
+    font-size: 2.2rem;
+}
+
+.iot .heading-fiveiot .fiveiot-text p {
+    font-size: 1.8rem;
+}
+
+.fiveiot-content {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+.fiveiot-content .img-fiveiot {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    margin: 0 90px 30px 50px;
+}
+
+.fiveiot-content img {
+    border-radius: 1.2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.fiveiot-content img.data1 {
+    height: 450px;
+    width: 700px;
+    margin-right: 4rem;
+}
+
+.fiveiot-content img.data2,
+.fiveiot-content img.data3 {
+    width:300px;
+    height: 500px;
+} 
+
+.dark-mode .fiveiot-content img {
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.fiveiot-content h4 {
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.fiveiot-content p {
+    font-size: 1.5rem;
+}
+
+/* ----------------------------------- End IoT Section -----------------------------------------------------------*/
+
+/* ----------------------------------- ML Section ----------------------------------------------------------------*/
+
+.headerml {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--icon-color);
+}
+
+.headerml .headerml-container {
+    max-width: 100rem;
+}
+
+.headerml .headerml-container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerml .headerml-container .title h1 {
+    font-size: 5rem;
+    color: var(--bg-color);
+}
+
+.headerml .headerml-container .title h1 .text {
+    color: var(--bg-color);
+    text-align: center;
+}
+
+.headerml .headerml-container .overlay-content {
+    position: absolute;
+    width: 0;
+    left: 6px;
+    margin: auto;
+    top: 81%;
+    height: 0;
+    border-right: 670px solid transparent;
+    border-top: 30px solid transparent;
+    border-left: 670px solid transparent;
+    border-bottom: 100px solid var(--bg-color);
+}
+
+.ml {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* First ML */
+
+.ml .heading-oneml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.ml .heading-oneml img {
+    width: 12vw;
+    bottom: 0;
+}
+
+.ml .heading-oneml .oneml-text {
+    padding: 0 0 0 1rem;
+}
+
+.ml .heading-oneml .oneml-text h3 {
+    font-size: 2.2rem;
+}
+
+.ml .heading-oneml .oneml-text p {
+    font-size: 1.8rem;
+}
+
+.oneml-content {
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-row-gap: 2rem;
+    padding-bottom: 7rem;
+}
+
+.oneml-content img {
+    width: 50%;
+    border-radius: 1.2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.dark-mode .oneml-content img {
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.oneml-content h4 {
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.oneml-content p {
+    font-size: 1.5rem;
+}
+
+/* Second ML */
+
+.ml .heading-twoml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.ml .heading-twoml img {
+    width: 12vw;
+    bottom: 0;
+}
+
+.ml .heading-twoml .twoml-text {
+    padding: 0 1.2rem 0 0;
+}
+
+.ml .heading-twoml .twoml-text h3 {
+    font-size: 2.2rem;
+}
+
+.ml .heading-twoml .twoml-text p {
+    font-size: 1.8rem;
+    text-align: end;
+}
+
+.twoml-content {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7rem;
+}
+
+.twoml-content .img-twoml {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    margin: 0 0 30px 0;
+}
+
+.twoml-content img {
+    width: 55%;
+    border-radius: 1.2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.dark-mode .twoml-content img {
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+}
+
+.twoml-content h4 {
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+
+.twoml-content p {
+    font-size: 1.5rem;
+}
+
+/* ----------------------------------- End ML Section -----------------------------------------------------------*/

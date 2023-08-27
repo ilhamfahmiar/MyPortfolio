@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img\favicon.ico" type="ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortofolio</title>
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+</head>
+<body>
+    <!-- Section header -->
+    <header class="header">
+        <a href="index.html" class="logo-sec">MyPortfolio.</a>
+        <nav class="navbar-sec">
+            <a href="index.html#home" class="active">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#portfolio">Portfolio</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-sec-icon"></div>
+        <div class="bx bx-menu" id="menu-sec-icon"></div>
+    </header>
+
+    <!-- sidebar click -->
+    <ul class="sidebar">
+        <li class="nav-item">
+            <a href="#oneml" class="nav-link">
+                <i class='bx bx-bot'><center>
+                    &nbsp;1
+                </center></i>
+                <span class="title" id="one-ml">Face Detection Program using CV2 and ReadNet</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#twoml" class="nav-link">
+                <i class='bx bx-bot'><center>
+                    &nbsp;2
+                </center></i>
+                <span class="title" id="two-ml">Shape Detection Program using Otsu Model</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#headerml" class="nav-link">
+                <i class='bx bx-up-arrow-alt bx-md'></i>
+            </a>
+        </li>
+    </ul>
+
+    <!-- header secction -->
+    <section class="headerml" id="headerml">
+        <div class="headerml-container">
+            <div class="title">
+                <h1 class="title-page">MACHINE LEARNING PORTFOLIO<div class="text">SECTION</div></h1>
+            </div>
+            <div class="overlay-content"></div>
+        </div>
+    </section>
+
+    <!-- ML section design -->
+    <section class="ml" id="ml">
+        <!-- First ML -->
+        <div class="heading-oneml" id="oneml">
+            <img src="img/Face-detection-light.png" alt="" id="img-face">
+            <div class="oneml-text">
+                <h3>Based Face Detection Program using CV2 & ReadNet</h3>
+                <p>2021</p>
+            </div>
+        </div>
+        <div class="oneml-content">
+            <img src="img/oneface-data2.png" alt="">
+            <img src="img/oneface-data1.png" alt="">
+            <h4>Description: </h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam officia vel architecto explicabo eum officiis rem. Quis consequuntur voluptatum labore excepturi perspiciatis.</p>
+        </div>
+        <!-- second ML -->
+        <div class="heading-twoml" id="twoml">
+            <img src="img/shape-detection-light.png" alt="" id="img-shape">
+            <div class="twoml-text">
+                <h3>Shape Detection Program using Otsu Model</h3>
+                <p>2021</p>
+            </div>
+        </div>
+        <div class="twoml-content">
+            <div class="img-twoml">
+                <img src="img/twoshape-data1.png" alt="" class="data1">
+                <img src="img/twoshape-data2.png" alt="" class="data2">
+                <img src="img/twoshape-data3.png" alt="" class="data3">
+                <img src="img/twoshape-data4.png" alt="" class="data4">
+            </div>
+            <div class="text-twoml">
+                <h4>Description: </h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam officia vel architecto explicabo eum officiis rem. Quis consequuntur voluptatum labore excepturi perspiciatis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by FahmiAR | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#headerml"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal skill -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom javascript -->
+    <script src="js/script-sec.js"></script>
+</body>
+</html>
