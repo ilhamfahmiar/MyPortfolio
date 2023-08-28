@@ -35,10 +35,10 @@
             <p>Process it's key to <b class="zero">Success.</b></p>
 
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/ilhamfahmiar/"><i class='bx bxl-linkedin-square bx-lg' ></i></a>
-                <a href="https://github.com/UnkoIzumi"><i class='bx bxl-github bx-lg' ></i></a>
-                <a href="https://www.instagram.com/ilhamfahmiar_/"><i class='bx bxl-instagram bx-lg'></i></a>
-                <a href="https://dribbble.com/Fahmi-AR"><i class='bx bxl-dribbble bx-lg'></i></a>
+                <a href="https://www.linkedin.com/in/ilhamfahmiar/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/UnkoIzumi"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/ilhamfahmiar_/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://dribbble.com/Fahmi-AR"><i class='bx bxl-dribbble'></i></a>
             </div>
 
             <a href="document/CV-IlhamFahmiAmriRosada.pdf" class="btn">Download CV</a>
@@ -47,27 +47,27 @@
         <div class="profession-container">
             <div class="profession-box">
                 <div class="profession" style="--i:0;">
-                    <i class='bx bx-window-alt bx-lg'></i>
+                    <i class='bx bx-window-alt'></i>
                     <h3>Web Developer</h3>
                 </div>
                 <div class="profession" style="--i:1;">
-                    <i class='bx bx-mobile-alt bx-lg'></i>
+                    <i class='bx bx-mobile-alt'></i>
                     <h3>Android Developer</h3>
                 </div>
                 <div class="profession" style="--i:2;">
-                    <i class='bx bx-palette bx-lg'></i>
+                    <i class='bx bx-palette'></i>
                     <h3>&nbsp;&nbsp;&nbsp;&nbsp;UI/UX Design</h3>
                 </div>
                 <div class="profession" style="--i:3;">
-                    <i class='bx bx-wifi bx-lg'></i>
+                    <i class='bx bx-wifi'></i>
                     <h3>Network Engineer</h3>
                 </div>
                 <div class="profession" style="--i:4;">
-                    <i class='bx bx-bot bx-lg'></i>
+                    <i class='bx bx-bot'></i>
                     <h3>&nbsp;&nbsp;&nbsp;&nbsp;ML Engineer</h3>
                 </div>
                 <div class="profession" style="--i:5;">
-                    <i class='bx bx-microchip bx-lg'></i>
+                    <i class='bx bx-microchip'></i>
                     <h3><center>IoT<br>Embedded System</center></h3>
                 </div>
                 <div class="circle"></div>
@@ -102,37 +102,37 @@
             <div class="skills-box">
                 <i class='bx bx-window-alt'></i>
                 <h3>Web Developer</h3>
-                <p>Pengembangan dan pembuatan website responsive, user friendly.</p>
+                <p>Develop and create websites that are responsive as well as user friendly.</p>
                 <a href="web-sec.html" class="btn-skills">Go to Portfolio</a>
             </div>
             <div class="skills-box">
                 <i class='bx bx-mobile-alt'></i>
                 <h3>Android Developer</h3>
-                <p>Pengembangan dan pembuatan apps android pada android studio.</p>
+                <p>Develop and create an Android application that is user friendly and simple design using Android Studio.</p>
                 <a href="app-sec.html" class="btn-skills">Go to Portfolio</a>
             </div>
             <div class="skills-box">
                 <i class='bx bx-palette'></i>
                 <h3>UI/UX Design</h3>
-                <p>Desain UI/UX website dan apps menggunakan adobe xd dan figma.</p>
+                <p>Design UI/UX websites and apps using adobe xd and figma with the use of user persona and brainstorming</p>
                 <a href="uiux-sec.html" class="btn-skills">Go to Portfolio</a>
             </div>
             <div class="skills-box">
                 <i class='bx bx-wifi'></i>
                 <h3>Network Engineer</h3>
-                <p>konfigurasi jaringan routing,switching, topologi dan sysadmin mikrotik.</p>
+                <p>Network configuration routing, switching, topology and sysadmin mikrotik and cisco.</p>
                 <a href="#" class="btn-skills">Go to Portfolio</a>
             </div>
             <div class="skills-box">
                 <i class='bx bx-microchip'></i>
                 <h3>IoT & Embedded System</h3>
-                <p>Pengembangan dan pembuatan alat atau device smart menggunakan platform MQTT, Firebase, Blynk.</p>
+                <p>Development and manufacture of smart tools or devices using MQTT, Firebase, Blynk platforms.</p>
                 <a href="iot-sec.html" class="btn-skills">Go to Portfolio</a>
             </div>
             <div class="skills-box">
                 <i class='bx bx-bot'></i>
                 <h3>ML Engineer</h3>
-                <p>Analisis data dan olah data mentah secara automatis.</p>
+                <p>Analyze data and process raw data automatically.</p>
                 <a href="ml-sec.html" class="btn-skills">Go to Portfolio</a>
             </div>
         </div>
@@ -189,17 +189,17 @@
         <h2 class="heading">
             Contact <span>Me!</span>
         </h2>
-        <form action="#">
+        <form class="contact_form" ction="#">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input class="name_user" type="text" placeholder="Full Name">
+                <input class="email_user" type="email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input class="number_user" type="number" placeholder="Mobile Number">
+                <input class="subject_user" type="text" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <textarea name="" id="msg_user" cols="30" rows="10" placeholder="Your Massage"></textarea>
+            <input type="submit" value="Send Message" class="btn" onclick="sendMsg()" />
         </form>
     </section>
 
@@ -215,6 +215,32 @@
 
     <!-- scroll reveal skill -->
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SMTP Email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        //fucntion untuk mengirim email ketika button ditekan
+        function sendMsg(){
+
+            const name = document.querySelector('.name_user'),
+                  email = document.querySelector('.email_user'),
+                  number = document.querySelector('.number_user'),
+                  sub_mail = document.querySelector('.subject_user'),
+                  msg = document.querySelector('#msg_user');
+
+            Email.send({
+                SecureToken : "aeccc5d8-6117-4392-a0fb-e4e281ab5a18",
+                To : 'ilhamfahmiamrirosada@gmail.com',
+                From : 'ilhamfahmiamrirosada@gmail.com',
+                ReplyTo : email.value,
+                Subject : sub_mail.value,
+                Body : msg.value,
+            }).then(
+                message => alert('Successfully')
+            );
+        }   
+    </script>
 
     <!-- custom javascript -->
     <script src="js/script.js"></script>

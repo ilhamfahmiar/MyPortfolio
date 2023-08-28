@@ -61,7 +61,7 @@ span {
 /* id section */
 
 #darkMode-icon {
-    font-size: 2.4rem;
+    font-size: 3rem;
     color: var(--white-color);
     cursor: pointer;
 }
@@ -117,7 +117,7 @@ span {
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: var(--main-color);
     font-weight: 600;
     cursor: default;
@@ -126,7 +126,7 @@ span {
 
 .navbar a{
     position: relative;
-    font-size: 1.7rem;
+    font-size: 3rem;
     color: var(--white-color);
     font-weight: 500;
     margin-right: 3.5rem;
@@ -189,32 +189,32 @@ span {
 }
 
 .home-content h3 {
-    font-size: 3rem;
+    font-size: 5.5rem;
     font-weight: 700;
     line-height: .3;
     margin-bottom: 1rem;
 }
 
 .home-content h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 700;
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 3.6rem;
 }
 
 .home-content .social-media a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 7rem;
+    height: 7rem;
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 30%;
     box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: 2rem;
+    font-size: 5rem;
     color: var(--main-color);
     margin: 2.5rem .5rem 3rem 1rem;
     transition: .5s ease;
@@ -227,11 +227,11 @@ span {
 
 .btn {
     display: inline-block;
-    padding: 1.2rem 2.8rem;
+    padding: 2.2rem 3.8rem;
     background: var(--main-color);
-    border-radius: .6rem;
-    box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: 1.6rem;
+    border-radius: 1rem;
+    box-shadow: 0 .4rem .10rem var(--shadow-color);
+    font-size: 3rem;
     color: var(--white-color);
     letter-spacing: .1rem;
     font-weight: 600;
@@ -260,8 +260,8 @@ span {
     top: 44%;
     right: 0;
     transform: translateY(-50%);
-    width: 800px;
-    height: 700px;
+    width: 110rem;
+    height: 100rem;
     overflow: hidden;
     pointer-events: none;
 }
@@ -270,8 +270,8 @@ span {
     position: absolute;
     top: 0;
     right: 0;
-    width: 700px;
-    height: 700px;
+    width: 100rem;
+    height: 100rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -311,9 +311,9 @@ span {
     flex-direction: column;
     color: var(--main-color);
     transform: rotate(calc(360deg / 6 * var(--i)));
-    transform-origin: 350px;
+    transform-origin: 50rem;
     background: var(--white-color);
-    padding: 13px 0;
+    padding: 3rem 0;
 }
 
  /* skill child */
@@ -339,14 +339,19 @@ span {
 /* ----- */
 
 .home .profession h3 {
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 1;
     font-weight: 600;
 }
 
+.home .profession i {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
 .home .profession-box .circle {
-    width: 530px;
-    height: 530px;
+    width: 72rem;
+    height: 72rem;
     border: 3px solid var(--main-color);
     border-radius: 50%;
 }
@@ -357,18 +362,19 @@ span {
     right: 0;
     width: 0;
     height: 0;
-    border-top: 350px solid var(--main-color);
-    border-right: 400px solid var(--main-color);
-    border-bottom: 350px solid var(--main-color);
-    border-left: 350px solid transparent;
+    border-top: 55rem solid var(--main-color);
+    border-right: 55rem solid var(--main-color);
+    border-bottom: 50rem solid var(--main-color);
+    border-left: 55rem solid transparent;
 }
 
 .home-img img {
     position: absolute;
     bottom: 0;
-    right: 8vh;
-    top: 8vh;
-    width: 35%;
+    right: 8rem;
+    top: 18vh;
+    width: 30%;
+    height: auto;
     pointer-events: none;
 }
 
@@ -387,7 +393,7 @@ span {
 }
 
 .heading {
-    font-size: 4.5rem;
+    font-size: 6.5rem;
     text-align: center;
 }
 
@@ -396,12 +402,9 @@ span {
     line-height: 1.2;
 }
 
-.about-content h3 {
-    font-size: 2rem;
-}
-
 .about-content p {
-    font-size: 1.5rem;
+    font-size: 3rem;
+    text-align: justify;
     margin: 2rem 0 3rem;
 }
 
@@ -411,7 +414,7 @@ span {
 }
 
 .skills h2 {
-    margin-bottom: 1rem;
+    margin: 0 3rem 3rem;
 }
 
 .skills .skills-container {
@@ -419,15 +422,14 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .skills-container .skills-box {
-    flex: 1 1 15rem;
+    flex: 1 1 45rem;
     background: var(--bg-color);
     padding: 3rem 2rem 3rem;
-    width: 40vh;
-    height: 66vh;
+    width: 4rem;
     border-radius: 2rem;
     box-sizing: border-box;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
@@ -449,12 +451,12 @@ span {
 }
 
 .skills-box i {
-    font-size: 3rem;
+    font-size: 5rem;
     color: var(--icon-color);
 }
 
 .skills-box h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     transition: .5s ease;
 }
 
@@ -463,7 +465,8 @@ span {
 }
 
 .skills-box p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
+    text-align: center;
     margin: 1rem 0 3rem;
 }
 
@@ -474,7 +477,7 @@ span {
     background: var(--sec-text-color);
     border-radius: .6rem;
     box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: 1.1rem;
+    font-size: 2.1rem;
     color: var(--white-color);
     letter-spacing: .1rem;
     font-weight: 600;
@@ -493,7 +496,7 @@ span {
 }
 
 .portfolio h2 {
-    margin-bottom: 4rem;
+    margin: 0 3rem 3rem;
 }
 
 .portfolio .portfolio-container {
@@ -506,7 +509,7 @@ span {
 
 .portfolio-container .portfolio-box {
     flex: 1 1 15rem;
-    height: 40vh;
+    height: 50vh;
     transition: .5s ease;
 }
 
@@ -527,18 +530,18 @@ span {
 }
 
 .portfolio-box h4 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: end;
-    padding: 1rem 6.2rem 1rem 1rem;
+    padding: 1rem;
     transform: rotate(-90deg);
 }
 
 .contact h2 {
-    margin-bottom: 1rem;
+    margin: 0 3rem 3rem;
 }
 
 .contact form {
-    max-width: 80rem;
+    max-width: 150rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 1rem;
@@ -553,8 +556,8 @@ span {
 .contact form .input-box input,
 .contact form textarea {
     width: 100%;
-    padding: 1.2rem;
-    font-size: 1.6rem;
+    padding: 2.2rem;
+    font-size: 2.6rem;
     color: var(--text-color);
     background: var(--bg-color);
     border-radius: .8rem;
@@ -614,23 +617,177 @@ span {
 
 /* End Point */
 
-@media (max-width: 1350px) {
+@media (max-width: 1900px) {
+    .home-content h3 {
+        font-size: 4.5rem;
+    }
+    
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    
+    .home-content p {
+        font-size: 2.6rem;
+    }
+
+    .home .profession h3 {
+        font-size: 3rem;
+    }
+
+    .home .profession i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .home .profession-container .profession-box {
+        right: -4rem;
+        top: 2rem;
+    }
+
+    .navbar a {
+        font-size: 2.5rem;
+    }
+
+    .home-img img {
+        right: 12rem;
+    }
+
+    .home-content h3 {
+        font-size: 3.5rem;
+    }
+    
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home .profession h3 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        font-size: 1.7rem;
+        margin-right: 3.5rem;
+    }
+
     .home .home-content {
-        max-width: 40rem;
+        max-width: 100rem;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content p {
+        font-size: 1.6rem;
+    }
+
+    .home-content .social-media a {
+        width: 4rem;
+        height: 4rem;
+        font-size: 3rem;
+    }
+
+    .btn {
+        padding: 1.2rem 2.8rem;
+        border-radius: .6rem;
+        font-size: 1.6rem;
+    }
+
+    .home .profession-container {
+        top: 44%;
+        width: 800px;
+        height: 700px;
     }
 
     .home .profession-container .profession-box {
-        right: -1rem;
-        top: -2%;
+        top: 20px;
+        height: 700px;
+        width: 700px;
+    }
+
+    .home .profession-box .profession {
+        transform-origin: 350px;
     }
 
     .home .profession-container .overlay {
-        right: -1rem;
+        border-top: 400px solid var(--main-color);
+        border-right: 400px solid var(--main-color);
+        border-bottom: 400px solid var(--main-color);
+        border-left: 400px solid transparent;
+    }
+
+    .home .profession-box .circle {
+        width: 530px;
+        height: 530px;
+    }
+
+    .home .profession h3 {
+        font-size: 2rem;
     }
     
     .home-img img {
-        right: 6vh;
-        top: 10vh;
+        right: 6vw;
+        top: 22vh;
+    }
+
+    .about-img img {
+        width: 35vw;
+    }
+
+    .heading {
+        font-size: 4.5rem;
+    }
+
+    .about-content p {
+        font-size: 2rem;
+    }
+
+    .skills-container .skills-box {
+        flex: 1 1 15rem;
+        width: 40vw;
+        height: 66vh;
+    }
+
+    .skills-box i {
+        font-size: 3rem;
+    }
+
+    .skills-box h3 {
+        font-size: 2rem;
+    }
+
+    .skills-box p {
+        font-size: 1.2rem;
+    }
+
+    .btn-skills {
+        font-size: 1.1rem;
+    }
+
+    .portfolio-box h4 {
+        text-align: end;
+        font-size: 1.4rem;
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .contact form {
+        max-width: 80rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        font-size: 1.6rem;
+        padding: 1.2rem;
     }
 }
 
