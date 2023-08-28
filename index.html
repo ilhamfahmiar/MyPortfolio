@@ -233,9 +233,8 @@
                 SecureToken : "aeccc5d8-6117-4392-a0fb-e4e281ab5a18",
                 To : 'ilhamfahmiamrirosada@gmail.com',
                 From : 'ilhamfahmiamrirosada@gmail.com',
-                ReplyTo : email.value,
                 Subject : sub_mail.value,
-                Body : msg.value,
+                Body : 'Nama: ' + name.value + '\n Email:' + email.value + '\n Number: ' + number.value + '\n Message:' + msg.value,
             }).then(
                 message => alert('Successfully')
             );
