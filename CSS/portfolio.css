@@ -2240,7 +2240,7 @@ html {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     .headerweb .headerweb-container .overlay-content {
         left: 45px;
         border-right: 200px solid transparent;
