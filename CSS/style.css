@@ -1335,7 +1335,7 @@ span {
 
     .skills-container .skills-box {
         flex: 1 1 20rem;
-        height: 50vh;
+        height: 55vh;
     }
 
     .portfolio-container .portfolio-box {
@@ -1456,7 +1456,7 @@ span {
 
     .skills-container .skills-box {
         flex: 1 1 15rem;
-        height: 40vh;
+        height: 45vh;
     }
 
     .portfolio-container .portfolio-box {
