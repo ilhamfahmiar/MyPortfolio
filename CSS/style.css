@@ -124,6 +124,10 @@ span {
     margin-right: auto;
 }
 
+.header.sticky .logo {
+    color: var(--icon-color);
+}
+
 .navbar a{
     position: relative;
     font-size: 3rem;
@@ -1351,31 +1355,35 @@ span {
 @media (max-width: 490px) {
     .home .home-content {
         max-width: 25rem;
-        margin-top: -150px;
+        margin-top: 50px;
+    }
+
+    .home .profession-container {
+        top: 60%;
     }
 
     .home .profession-container .profession-box {
-        top: 43%;
+        top: 50%;
     }
 
     .home .profession-container .overlay {
-        top: 67rem;
-        border-top: 350px solid var(--main-color);
-        border-right: 350px solid var(--main-color);
-        border-bottom: 350px solid var(--main-color);
-        border-left: 340px solid transparent;
+        top: 68rem;
+        border-top: 300px solid var(--main-color);
+        border-right: 375px solid var(--main-color);
+        border-bottom: 250px solid var(--main-color);
+        border-left: 300px solid transparent;
     }
 
     .home .profession-box .profession:nth-child(3) i {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .home .profession-box .profession:nth-child(6) i {
-        margin-left: 19px;
+        margin-left: 5px;
     }
 
     .skills-container .skills-box {
-        height: 37vh;
+        height: 55vh;
     }
 
     .portfolio-container .portfolio-box {
