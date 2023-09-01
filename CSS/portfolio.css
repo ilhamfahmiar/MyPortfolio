@@ -2225,4 +2225,32 @@ html {
         margin: 3rem 0;
         color: var(--text-content);
     }
+
+    .headerweb .headerweb-container .overlay-content {
+        left: 60px;
+        border-right: 270px solid transparent;
+        border-top: 0 solid transparent;
+        border-left: 270px solid transparent;
+        border-bottom: 120px solid var(--bg-color);
+    }
+
+    .twoweb-content img.data1 {
+        width: 250px;
+        height: 125px;
+    }
+}
+
+@media (max-width: 500px) {
+    .headerweb .headerweb-container .overlay-content {
+        left: 45px;
+        border-right: 200px solid transparent;
+        border-top: 0 solid transparent;
+        border-left: 200px solid transparent;
+        border-bottom: 120px solid var(--bg-color);
+    }
+
+    .twoweb-content img.data1 {
+        width: 180px;
+        height: 90px;
+    }
 }
