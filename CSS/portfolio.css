@@ -2286,31 +2286,31 @@ html {
     }
 
     .nav-link {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .nav-link i {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 
     .nav-link .title {
-        line-height: 30px;
+        line-height: 35px;
     }
 
     .nav-item .nav-link span.title {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* ----------------------------------- Web Section ----------------------------------------------------------- */
     /* Sidebar web */
 
     .nav-item #one-web {
-        width: 180px;
+        width: 200px;
     }
 
     .nav-item #two-web {
-        width: 130px;
+        width: 150px;
     }
 
     /* End Sidebar web */
@@ -2321,9 +2321,9 @@ html {
 
     .headerweb .headerweb-container .overlay-content {
         left: 0;
-        border-right: 200px solid transparent;
+        border-right: 100px solid transparent;
         border-top: 30px solid transparent;
-        border-left: 200px solid transparent;
+        border-left: 100px solid transparent;
         border-bottom: 100px solid var(--bg-color);
     }
 
