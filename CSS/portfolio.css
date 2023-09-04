@@ -2162,15 +2162,17 @@ html {
         color: var(--bg-color);
     }
 
-    .dark-mode .header.sticky #menu-sec-icon {
-        color: var(--bg-color);
-    }
-
-    .dark-mode .header.sticky #menu-sec-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
     #menu-sec-icon:hover {
+        color: var(--black-color);
+    }
+
+    .header.sticky #menu-sec-icon,
+    .dark-mode .header.sticky #menu-sec-icon {
+        color: var(--icon-color);
+    }
+
+    .header.sticky #menu-sec-icon:hover,
+    .dark-mode .header.sticky #menu-sec-icon:hover {
         color: var(--hover-menu-color);
     }
 
@@ -2186,7 +2188,13 @@ html {
         color: var(--hover-menu-color);
     }
 
-    .header.sticky #darkMode-sec-icon:hover {
+    .header.sticky #darkMode-sec-icon,
+    .dark-mode .header.sticky #darkMode-sec-icon {
+        color: var(--icon-color);
+    }
+
+    .header.sticky #darkMode-sec-icon:hover,
+    .dark-mode .header.sticky #darkMode-sec-icon:hover {
         color: var(--hover-menu-color);
     }
 
@@ -2196,22 +2204,10 @@ html {
         left: 0;
         width: 100%;
         padding: 1rem 3%;
-        background: var(--white-color);
+        background: var(--icon-color);
         border-top: 1rem solid rgb(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
         display: none;
-    }
-
-    .dark-mode .header.sticky .navbar-sec {
-        background: var(--text-content);
-    }
-
-    .dark-mode .header.sticky .navbar-sec a {
-        color: var(--white-color);
-    }
-
-    .dark-mode .header.sticky .navbar-sec a.active {
-        color: var(--hover-menu-color);
     }
 
     .navbar-sec.active {
@@ -2223,7 +2219,23 @@ html {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
-        color: var(--text-content);
+        color: var(--bg-color);
+    }
+
+    .header.sticky .navbar-sec {
+        background: var(--white-color);
+    }
+
+    .header.sticky .navbar-sec a {
+        color: var(--black-color);
+    }
+
+    .dark-mode .header.sticky .navbar-sec {
+        background: var(--black-color);
+    }
+
+    .dark-mode .header.sticky .navbar-sec a {
+        color: var(--white-color);
     }
 
     .headerweb .headerweb-container .overlay-content {
@@ -2253,4 +2265,117 @@ html {
         width: 180px;
         height: 90px;
     }
+}
+
+@media (max-width: 390px){
+
+    .header .logo-sec {
+        font-size: 2.3rem;
+    }
+
+    #darkMode-sec-icon {
+        font-size: 2.3rem;
+    }
+
+    #menu-sec-icon {
+        font-size: 3rem;
+    }
+
+    .navbar-sec a {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
+
+    .nav-link i {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-link .title {
+        line-height: 30px;
+    }
+
+    .nav-item .nav-link span.title {
+        font-size: 10px;
+    }
+
+    /* ----------------------------------- Web Section ----------------------------------------------------------- */
+    /* Sidebar web */
+
+    .nav-item #one-web {
+        width: 180px;
+    }
+
+    .nav-item #two-web {
+        width: 130px;
+    }
+
+    /* End Sidebar web */
+
+    .headerweb .headerweb-container .title h1 {
+        font-size: 3rem;
+    }
+
+    .headerweb .headerweb-container .overlay-content {
+        left: 0;
+        border-right: 200px solid transparent;
+        border-top: 30px solid transparent;
+        border-left: 200px solid transparent;
+        border-bottom: 100px solid var(--bg-color);
+    }
+
+    /* first web */
+
+    .web .heading-oneweb .oneweb-text {
+        padding: 1.5rem 0 0 0;
+        margin-left: 1rem;
+    }
+    
+    .web .heading-oneweb .oneweb-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .web .heading-oneweb .oneweb-text p {
+        font-size: 1.2rem;
+    }
+
+    .oneweb-content h4 {
+        font-size: 2rem;
+    }
+
+    .oneweb-content p {
+        font-size: 1rem;
+    }
+
+    /* second web */
+    .web .heading-twoweb .twoweb-text {
+        padding: 1.5rem 0 0 0;
+        margin-right: 1rem;
+    }
+
+    .web .heading-twoweb .twoweb-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .web .heading-twoweb .twoweb-text p {
+        font-size: 1.2rem;
+    }
+
+    .twoweb-content img.data1 {
+        width: 140px;
+        height: 75px;
+    }
+
+    .twoweb-content h4 {
+        font-size: 2rem;
+    }
+
+    .twoweb-content p {
+        font-size: 1rem;
+    }
+    /* ----------------------------------- End Web Section -------------------------------------------------------- */
+
 }

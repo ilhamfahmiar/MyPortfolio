@@ -1082,10 +1082,16 @@ span {
 }
 
 @media (max-width: 690px){
-    #menu-icon {
+    #menu-icon,
+    .header.sticky #menu-icon {
         display: block;
         cursor: pointer;
         color: var(--overlay-color);
+    }
+
+    #menu-icon:hover,
+    .header.sticky #menu-icon:hover {
+        color: var(--hover-menu-color);
     }
 
     .dark-mode .header.sticky #menu-icon {
@@ -1096,22 +1102,16 @@ span {
         color: var(--hover-menu-color);
     }
 
-    #menu-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
-    #darkMode-icon {
+    #darkMode-icon,
+    .header.sticky #darkMode-icon {
         position: absolute;
         right: 7rem;
         font-size: 2.6rem;
         color: var(--overlay-color);
         margin-bottom: .1rem;
     }
-
-    #darkMode-icon:hover {
-        color: var(--hover-menu-color);
-    }
-
+    
+    #darkMode-icon:hover,
     .header.sticky #darkMode-icon:hover {
         color: var(--hover-menu-color);
     }
@@ -1479,6 +1479,10 @@ span {
 
     .footer .footer-iconTop {
         margin-right: 12px;
+    }
+
+    .footer-iconTop a i {
+        font-size: 1.5rem;
     }
 }
 
