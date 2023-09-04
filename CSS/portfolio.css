@@ -2320,7 +2320,7 @@ html {
     }
 
     .headerweb .headerweb-container .overlay-content {
-        left: 8px;
+        left: 10px;
         border-right: 180px solid transparent;
         border-top: 10px solid transparent;
         border-left: 180px solid transparent;
