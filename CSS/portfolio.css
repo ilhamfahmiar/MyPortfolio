@@ -2320,11 +2320,11 @@ html {
     }
 
     .headerweb .headerweb-container .overlay-content {
-        left: 0;
+        left: 2px;
         border-right: 180px solid transparent;
         border-top: 10px solid transparent;
         border-left: 180px solid transparent;
-        border-bottom: 150px solid var(--bg-color);
+        border-bottom: 200px solid var(--bg-color);
     }
 
     /* first web */
