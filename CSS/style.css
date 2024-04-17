@@ -731,6 +731,26 @@ span {
     }
 }
 
+@media (max-width: 1440px) {
+    section {
+        padding: 10rem 7% 10rem;
+    }
+
+    .home .profession-container {
+        width: 90rem;
+        height: 90rem;
+        top: 50%;
+    }
+
+    .home-img img {
+        top: 20rem;
+    }
+
+    .skills-box p {
+        height: 10rem;
+    }
+}
+
 @media (max-width: 1400px) {
     .logo {
         font-size: 2.5rem;
@@ -774,9 +794,9 @@ span {
     }
 
     .home .profession-container {
-        top: 44%;
+        top: 50%;
         width: 800px;
-        height: 700px;
+        height: 800px;
     }
 
     .home .profession-container .profession-box {
@@ -806,8 +826,8 @@ span {
     }
     
     .home-img img {
-        right: 6vw;
-        top: 22vh;
+        right: 5vw;
+        top: 25vh;
     }
 
     .about-img img {
@@ -845,12 +865,12 @@ span {
     }
 
     .portfolio-container .portfolio-box {
-        height: 50vh;
+        height: 42vh;
     }
 
     .portfolio-box h4 {
         text-align: end;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         padding: 1rem 0 1rem 1rem;
     }
 
@@ -862,6 +882,38 @@ span {
     .contact form textarea {
         font-size: 1.6rem;
         padding: 1.2rem;
+    }
+}
+
+@media screen and (max-height: 700px) and (max-width: 1400px) {
+    .home-img img {
+        right: 5vw;
+        top: 20vh;
+    }
+
+    .portfolio-container .portfolio-box {
+        height: 52vh;
+    }
+
+}
+
+@media (max-width: 1350px) {
+    .home .profession-container {
+        top: 50%;
+        width: 80rem;
+        height: 80rem;
+    }
+
+    .portfolio-container .portfolio-box {
+        height: 40vh;
+    }
+
+    .portfolio-box h4 {
+        font-size: 1.8rem;
+    }
+
+    .home-img img {
+        top: 26vh;
     }
 }
 
@@ -1483,6 +1535,28 @@ span {
 
     .footer-iconTop a i {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .home {
+        padding: 0 5% 15rem;
+    }
+
+    .about-content h2 {
+        padding-top: 4rem;
+    }
+
+    .home .profession-container .overlay {
+        top: 60rem;
+    }
+
+    .portfolio-container .portfolio-box {
+        height: 45vh;
+    }
+
+    .skills-container .skills-box {
+        height: 48vh;
     }
 }
 

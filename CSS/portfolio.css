@@ -1875,7 +1875,7 @@ html {
     font-size: 1.5rem;
 }
 
-/* ----------------------------------- End ML Section -----------------------------------------------------------*/
+/* ----------------------------------- Responsive Section -----------------------------------------------------------*/
 
 @media (max-width: 1900px) {
     .nav-link {
@@ -1890,8 +1890,6 @@ html {
     .nav-link .title {
         line-height: 70px;
     }
-
-    /* ----------------------------------- Web Section -------------------------------------------------------------*/
 
     .nav-item #one-web {
         width: 350px;
@@ -1913,8 +1911,14 @@ html {
         font-size: 2.2rem;
     }
 
-    .headerweb .headerweb-container .title h1 {
+    /* tittle */
+    .headerweb .headerweb-container .title h1,
+    .headerapp .headerapp-container .title h1,
+    .headerui .headerui-container .title h1,
+    .headeriot .headeriot-container .title h1,
+    .headerml .headerml-container .title h1 {
         font-size: 6rem;
+        text-align: center;
     }
 
     .headerweb .headerweb-container .overlay-content {
@@ -1985,8 +1989,22 @@ html {
         font-size: 2.5rem;
     }
 
-    /* ----------------------------------- End Web Section ----------------------------------------------------------*/
+}
 
+@media (max-width:1440px) {
+    .headerweb .headerweb-container .overlay-content {
+        left: 68px;
+        border-right: 650px solid transparent;
+        border-left: 650px solid transparent;
+        border-top: 30px solid transparent;
+        border-bottom: 150px solid var(--bg-color);
+    }
+
+    .headerapp .headerapp-container .overlay-content {
+        left: 65px;
+        border-right: 650px solid transparent;
+        border-left: 650px solid transparent;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -2020,7 +2038,6 @@ html {
         font-size: 15px;
     }
 
-    /* ----------------------------------- Web Section -------------------------------------------------------------*/
     /* Sidebar Web */
 
     .nav-item #one-web {
@@ -2037,12 +2054,89 @@ html {
         font-size: 5rem;
     }
 
+    .headerapp .headerapp-container .title h1 {
+        font-size: 5rem;
+    }
+
     .headerweb .headerweb-container .overlay-content {
-        left: 6px;
-        border-right: 670px solid transparent;
-        border-top: 30px solid transparent;
-        border-left: 670px solid transparent;
-        border-bottom: 100px solid var(--bg-color);
+        left: 30px;
+        border-right: 630px solid transparent;
+        border-top: 28px solid transparent;
+        border-left: 630px solid transparent;
+        border-bottom: 125px solid var(--bg-color);
+    }
+
+    /* android header */
+    .headerapp .headerapp-container .overlay-content {
+        left: 30px;
+        border-right: 630px solid transparent;
+        border-top: 28px solid transparent;
+        border-left: 630px solid transparent;
+        border-bottom: 125px solid var(--bg-color);
+    }
+
+    /* UI/UX header */
+    .headerui .headerui-container .overlay-content {
+        left: 30px;
+        border-right: 630px solid transparent;
+        border-top: 28px solid transparent;
+        border-left: 630px solid transparent;
+        border-bottom: 125px solid var(--bg-color);
+    }
+
+    /* IoT header */
+    .headeriot .headeriot-container .overlay-content {
+        left: 30px;
+        border-right: 630px solid transparent;
+        border-top: 28px solid transparent;
+        border-left: 630px solid transparent;
+        border-bottom: 125px solid var(--bg-color);
+    }
+
+    /* ML header */
+    .headerml .headerml-container .overlay-content {
+        left: 30px;
+        border-right: 630px solid transparent;
+        border-top: 28px solid transparent;
+        border-left: 630px solid transparent;
+        border-bottom: 125px solid var(--bg-color);
+    }
+
+    /* data App */
+
+    .app .heading-oneapp img,
+    .app .heading-twoapp img,
+    .app .heading-threeapp img,
+    .app .heading-fourapp img {
+        width: 16vw;
+    }
+
+    .app .heading-oneapp .oneapp-text h3,
+    .app .heading-twoapp .twoapp-text h3,
+    .app .heading-threeapp .threeapp-text h3,
+    .app .heading-fourapp .fourapp-text h3 {
+        font-size: 2.2rem;
+    }
+
+    .app .heading-oneapp .oneapp-text p,
+    .app .heading-twoapp .twoapp-text p,
+    .app .heading-threeapp .threeapp-text p,
+    .app .heading-fourapp .fourapp-text p {
+        font-size: 1.8rem;
+    }
+
+    .oneapp-content h4,
+    .twoapp-content h4,
+    .threeapp-content h4,
+    .fourapp-content h4 {
+        font-size:2.5rem;
+    }
+
+    .oneapp-content p,
+    .twoapp-content p,
+    .threeapp-content p,
+    .fourapp-content p {
+        font-size:1.5rem;
     }
 
     /* First Web */
@@ -2094,19 +2188,9 @@ html {
         font-size: 1.5rem;
     }
 
-    /* ----------------------------------- End Web Section ----------------------------------------------------------*/
-
     .headerml .headerml-container .title h1 {
         font-size: 5rem;
         color: var(--bg-color);
-    }
-
-    .headerml .headerml-container .overlay-content {
-        left: 6px;
-        border-right: 670px solid transparent;
-        border-top: 30px solid transparent;
-        border-left: 670px solid transparent;
-        border-bottom: 100px solid var(--bg-color);
     }
 
     .ml .heading-twoml img {
@@ -2135,9 +2219,49 @@ html {
     }
 }
 
-@media (max-width: 1200px) {
-    /* ----------------------------------- Web Section -------------------------------------------------------------*/
+@media (max-width: 1340px) {
+    .headerweb .headerweb-container .overlay-content {
+        top: 84%;
+    }
+
+    .headerapp .headerapp-container .overlay-content {
+        left: 0;
+        border-right: 660px solid transparent;
+        border-left: 660px solid transparent;
+    }
+
+    .headerml .headerml-container .overlay-content {
+        top: 84%;
+        left: 10px;
+        border-right: 660px solid transparent;
+        border-left: 660px solid transparent;
+        border-top: 10px solid transparent;
+        border-bottom: 120px solid var(--bg-color);
+    }
+
+    .oneml-content img,
+    .twoml-content img {
+        margin-bottom: 0;
+    }
+
+    .headerui .headerui-container .overlay-content,
+    .headeriot .headeriot-container .overlay-content {
+        top: 84%;
+        border-right: 660px solid transparent;
+        border-left: 660px solid transparent;
+    }
     
+    .app .heading-oneapp,
+    .app .heading-twoapp,
+    .app .heading-threeapp,
+    .app .heading-fourapp,
+    .web .heading-oneweb,
+    .web .heading-twoweb {
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 1200px) {
     .headerweb .headerweb-container .overlay-content {
         left: -120px;
         border-right: 670px solid transparent;
@@ -2150,8 +2274,6 @@ html {
         width: 370px;
         height: 185px;
     }
-
-    /* ----------------------------------- End Web Section ----------------------------------------------------------*/
 
 }
 
@@ -2268,7 +2390,6 @@ html {
 }
 
 @media (max-width: 390px){
-
     .header .logo-sec {
         font-size: 2.6rem;
     }
@@ -2302,7 +2423,6 @@ html {
         font-size: 12px;
     }
 
-    /* ----------------------------------- Web Section ----------------------------------------------------------- */
     /* Sidebar web */
 
     .nav-item #one-web {
@@ -2315,16 +2435,86 @@ html {
 
     /* End Sidebar web */
 
-    .headerweb .headerweb-container .title h1 {
-        font-size: 3rem;
+    /* Sidebar app */
+
+    .nav-item #one-app {
+        width: 150px;
     }
 
+    .nav-item #two-app {
+        width: 200px;
+    }
+
+    .nav-item #three-app {
+        width: 200px;
+    }
+
+    .nav-item #four-app {
+        width: 200px;
+    }
+
+    /* End sidebar App */
+
+    /* tittle */
+    .headerweb .headerweb-container .title h1,
+    .headerapp .headerapp-container .title h1,
+    .headerui .headerui-container .title h1,
+    .headeriot .headeriot-container .title h1,
+    .headerml .headerml-container .title h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    /* End Tittle */
+
+    /* Web Header */
     .headerweb .headerweb-container .overlay-content {
         left: 10px;
         border-right: 180px solid transparent;
-        border-top: 10px solid transparent;
+        border-top: 0 solid transparent;
         border-left: 180px solid transparent;
-        border-bottom: 200px solid var(--bg-color);
+        border-bottom: 128px solid var(--bg-color);
+    }
+
+    /* App Header */
+    .headerapp .headerapp-container .overlay-content {
+        left: 10px;
+        border-right: 180px solid transparent;
+        border-top: 0 solid transparent;
+        border-left: 180px solid transparent;
+        border-bottom: 128px solid var(--bg-color);
+    }
+
+    /* UI/UX Header */
+    .headerui .headerui-container .overlay-content {
+        left: 10px;
+        border-right: 180px solid transparent;
+        border-top: 0 solid transparent;
+        border-left: 180px solid transparent;
+        border-bottom: 128px solid var(--bg-color);
+    }
+
+    /* IoT Header */
+    .headeriot .headeriot-container .overlay-content {
+        left: 10px;
+        border-right: 180px solid transparent;
+        border-top: 0 solid transparent;
+        border-left: 180px solid transparent;
+        border-bottom: 128px solid var(--bg-color);
+    }
+
+    /* ML Header */
+    .headerml .headerml-container .overlay-content {
+        left: 10px;
+        border-right: 180px solid transparent;
+        border-top: 0 solid transparent;
+        border-left: 180px solid transparent;
+        border-bottom: 128px solid var(--bg-color);
+    }
+
+    .oneapp-content .img-oneapp,
+    .threeapp-content .img-threeapp {
+        flex-wrap:wrap;
+        margin: 0 100px 30px 100px;
     }
 
     /* first web */
@@ -2333,49 +2523,39 @@ html {
         padding: 1.5rem 0 0 0;
         margin-left: 1rem;
     }
-    
-    .web .heading-oneweb .oneweb-text h3 {
-        font-size: 1.5rem;
-    }
 
-    .web .heading-oneweb .oneweb-text p {
-        font-size: 1.2rem;
-    }
-
-    .oneweb-content h4 {
-        font-size: 2rem;
-    }
-
-    .oneweb-content p {
-        font-size: 1rem;
-    }
-
-    /* second web */
     .web .heading-twoweb .twoweb-text {
         padding: 1.5rem 0 0 0;
         margin-right: 1rem;
     }
-
-    .web .heading-twoweb .twoweb-text h3 {
+    
+    .web .heading-oneweb .oneweb-text h3,
+    .web .heading-twoweb .twoweb-text h3,
+    .app .heading-oneapp .oneapp-text h3,
+    .app .heading-twoapp .twoapp-text h3,
+    .ml .heading-oneml .oneml-text h3,
+    .ml .heading-twoml .twoml-text h3 {
         font-size: 1.5rem;
     }
 
+    .web .heading-oneweb .oneweb-text p,
     .web .heading-twoweb .twoweb-text p {
         font-size: 1.2rem;
+    }
+
+    .oneweb-content h4,
+    .twoweb-content h4 {
+        font-size: 2rem;
+    }
+
+    .oneweb-content p,
+    .twoweb-content p {
+        font-size: 1rem;
     }
 
     .twoweb-content img.data1 {
         width: 140px;
         height: 75px;
     }
-
-    .twoweb-content h4 {
-        font-size: 2rem;
-    }
-
-    .twoweb-content p {
-        font-size: 1rem;
-    }
-    /* ----------------------------------- End Web Section -------------------------------------------------------- */
 
 }
