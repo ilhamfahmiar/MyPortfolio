@@ -885,7 +885,7 @@ span {
     }
 }
 
-@media screen and (max-height: 700px) and (max-width: 1400px) {
+@media screen and (max-height: 712px) and (max-width: 1400px) {
     .home-img img {
         right: 5vw;
         top: 20vh;
@@ -897,7 +897,7 @@ span {
 
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1340px) {
     .home .profession-container {
         top: 50%;
         width: 80rem;
